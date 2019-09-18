@@ -1,3 +1,8 @@
+PATH
+  remote: /Users/xiongzenghui/collect_cocoapods_plugins/cocoapods-xzh
+  specs:
+    cocoapods-xzh (0.0.1)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -79,6 +84,7 @@ PLATFORMS
 DEPENDENCIES
   cocoapods (>= 1.7.5, < 1.8)
   cocoapods-binary
+  cocoapods-xzh!
 
 BUNDLED WITH
    2.0.2

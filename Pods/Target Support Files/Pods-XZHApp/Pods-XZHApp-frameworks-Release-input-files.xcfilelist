@@ -1,4 +1,5 @@
 ${PODS_ROOT}/Target Support Files/Pods-XZHApp/Pods-XZHApp-frameworks.sh
-${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework
+${PODS_ROOT}/AFNetworking/AFNetworking.framework
+${PODS_ROOT}/AFNetworking/AFNetworking.framework.dSYM
 ${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework
 ${BUILT_PRODUCTS_DIR}/YYCache/YYCache.framework

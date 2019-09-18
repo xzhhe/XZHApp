@@ -2,6 +2,7 @@
 # platform :ios, '9.0'
 
 plugin 'cocoapods-binary'
+plugin 'cocoapods-xzh'
 
 target 'XZHApp' do
   use_frameworks!
