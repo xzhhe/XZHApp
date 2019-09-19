@@ -7,7 +7,7 @@ plugin 'cocoapods-xzh'
 target 'XZHApp' do
   use_frameworks!
 
-  pod 'AFNetworking', :binary => true
+  pod 'AFNetworking', binary: true
   pod 'YYCache'
   pod 'SDWebImage'
 end
