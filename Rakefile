@@ -23,32 +23,7 @@ def pod_install_2
 end
 
 def pod_install_3
-  CLAide::Command.run(['install'])
-
-  argv = CLAide::ARGV.new([])
-  # cmd = Pod::Command.new(argv)
-  cmd = Pod::Command::Install.new(argv) # 使用 Pod::Command 子类
-  # cmd.verify_podfile_exists! # error: 因为 verify_podfile_exists! 是 Pod::Command 中的 private 私有方法
-  # cmd.send(:verify_podfile_exists!)
-  # pp cmd.config.sandbox
-  # pp cmd.config.podfile
-  # pp cmd.config.lockfile
-
-  # def run
-  #   verify_podfile_exists!
-  #   installer = installer_for_config
-  #   installer.repo_update = repo_update?(:default => false)
-  #   installer.update = false
-  #   installer.deployment = @deployment
-  #   installer.clean_install = @clean_install
-  #   installer.install!
-  # end
-
-  # installer = cmd.send(:installer_for_config)
-  # installer.repo_update = cmd.send(:repo_update?, :default => false)
-  # installer.update = false
-  # installer.install!
-  cmd.run
+  Pod::Command.run(['install'])
 end
 
 task default: %w[test]
