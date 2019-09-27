@@ -15,7 +15,8 @@ gem 'rake', '~> 10.0'
 #  if RUBY_VERSION < '2.0.0'
 #    abort("fastlane requires Ruby 2.0.0 or higher")
 #  end
-gem 'fastlane', path: '/Users/xiongzenghui/Desktop/fastlane'
+# gem 'fastlane', path: '/Users/xiongzenghui/Desktop/fastlane'
+gem 'fastlane', '>=2.131.0', '<3.0'
 
 ## 一定要使用 bundle exec pod .....
 ## 修改 /Users/xiongzenghui/Desktop/CocoaPods/bin/pod 源码
@@ -30,8 +31,8 @@ gem 'fastlane', path: '/Users/xiongzenghui/Desktop/fastlane'
 #  if Encoding.default_external != Encoding::UTF_8
 
 #    if ARGV.include? '--no-ansi'
-# gem 'cocoapods', '>=1.7.5', '<1.8'
-gem 'cocoapods', path: '/Users/xiongzenghui/Desktop/CocoaPods'
+# gem 'cocoapods', path: '/Users/xiongzenghui/Desktop/CocoaPods'
+gem 'cocoapods', '>=1.7.5', '<1.8'
 
 # gem 'cocoapods-binary'
 # gem 'cocoapods-xzh', git: 'https://github.com/xzhhe/cocoapods-xzh.git', branch: 'master'

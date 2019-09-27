@@ -3,7 +3,7 @@
 
 # plugin 'cocoapods-binary'
 # plugin 'cocoapods-xzh'
-plugin 'cocoapods-NameMappedModule'
+# plugin 'cocoapods-NameMappedModule'
 
 target 'XZHApp' do
   use_frameworks!
