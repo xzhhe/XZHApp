@@ -2,8 +2,10 @@ source 'https://rubygems.org'
 
 gem 'rake', '~> 10.0'
 
+# 一定要使用 bundle exec fastlane .....
 gem 'fastlane', path: '/Users/xiongzenghui/Desktop/fastlane'
 
+# 一定要使用 bundle exec pod .....
 # gem 'cocoapods', '>=1.7.5', '<1.8'
 gem 'cocoapods', path: '/Users/xiongzenghui/Desktop/CocoaPods'
 
