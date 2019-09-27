@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>FF211B35-738F-4C8E-A6D5-E280B484F567</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>FF211B35-738F-4C8E-A6D5-E280B484F567.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>XZHApp project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>XZHApp</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building workspace XZHApp with scheme XZHApp and configuration debug</string>
+			<key>timeStartedRecording</key>
+			<real>590914449.01670694</real>
+			<key>timeStoppedRecording</key>
+			<real>590914449.70478201</real>
+			<key>title</key>
+			<string>Building workspace XZHApp with scheme XZHApp and configuration debug</string>
+			<key>uniqueIdentifier</key>
+			<string>FF211B35-738F-4C8E-A6D5-E280B484F567</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

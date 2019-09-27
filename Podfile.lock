@@ -14,27 +14,35 @@ PODS:
   - AFNetworking/Serialization (3.2.1)
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
+  - lottie-ios (3.1.3)
   - SDWebImage (5.1.1):
     - SDWebImage/Core (= 5.1.1)
   - SDWebImage/Core (5.1.1)
+  - UIAlertView-Blocks (1.0)
   - YYCache (1.0.4)
 
 DEPENDENCIES:
   - AFNetworking
+  - lottie-ios
   - SDWebImage
+  - UIAlertView-Blocks
   - YYCache
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - AFNetworking
+    - lottie-ios
     - SDWebImage
+    - UIAlertView-Blocks
     - YYCache
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  lottie-ios: 496ac5cea1bbf1a7bd1f1f472f3232eb1b8d744b
   SDWebImage: 96d7f03415ccb28d299d765f93557ff8a617abd8
+  UIAlertView-Blocks: 7904744fca618afbd2ec646608924f5e69d5acd1
   YYCache: 8105b6638f5e849296c71f331ff83891a4942952
 
-PODFILE CHECKSUM: be38c1fd3c4c40a16edc1dca6ad2a4812e12fa8a
+PODFILE CHECKSUM: d171ba6b987063b9bb5e186bff3c6a21d705a638
 
 COCOAPODS: 1.7.5

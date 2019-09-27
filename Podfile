@@ -3,6 +3,7 @@
 
 # plugin 'cocoapods-binary'
 # plugin 'cocoapods-xzh'
+plugin 'cocoapods-NameMappedModule'
 
 target 'XZHApp' do
   use_frameworks!
@@ -11,4 +12,6 @@ target 'XZHApp' do
   pod 'AFNetworking'
   pod 'YYCache'
   pod 'SDWebImage'
+  pod 'UIAlertView-Blocks'
+  pod 'lottie-ios'
 end

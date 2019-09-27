@@ -1,0 +1,7 @@
+{
+  "AFNetworking": "AFNetworking.framework",
+  "SDWebImage": "SDWebImage.framework",
+  "UIAlertView-Blocks": "UIAlertView_Blocks.framework",
+  "YYCache": "YYCache.framework",
+  "lottie-ios": "Lottie.framework"
+}
