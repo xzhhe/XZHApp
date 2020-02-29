@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rake', '~> 10.0'
+gem 'rake', '~> 12.3'
 
 ## 一定要使用 bundle exec fastlane .....
 ## 修改 /Users/xiongzenghui/Desktop/fastlane/bin/fastlane 源码
